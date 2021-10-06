@@ -1,4 +1,4 @@
-![Soluciones HR](https://github.com/HRDTech/ChangeIcon/blob/master/app/src/main/ic_launcher-playstore.png)
+<center>![Soluciones HR](https://github.com/HRDTech/ChangeIcon/blob/master/app/src/main/ic_launcher-playstore.png)</center>
 
 
 # ChangeIcon
