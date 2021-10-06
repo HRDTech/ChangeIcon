@@ -23,7 +23,7 @@
     <activity-alias
         android:name=".MainActivityAlias"
         android:label="@string/app_name"
-        android:icon="@drawable/ic_birthday_logo"
+        android:icon="@drawable/ic_network_interface_card_icon"
         android:enabled="false"
         android:targetActivity=".MainActivity">
         <intent-filter>

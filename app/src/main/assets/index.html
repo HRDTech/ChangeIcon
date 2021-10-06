@@ -7,12 +7,13 @@
         function getToastMessage() {
             return document.getElementById('toastMessage').value;
         }
-        function concatenateStrings(arg1, arg2) {
-            return arg1 + arg2;
+        function setInputText() {
+            document.getElementById("myInput").value = Apk_WebView.getInputText();
         }
         function showToast() {
             Apk_WebView.showToast(getToastMessage());
         }
+
     </script>
 </head>
 <body>
@@ -28,6 +29,12 @@
     </div>
     <div style="margin-top: 50px;">
         <button type="button" onclick="window.location.assign('change-old_load.html');">Cambiar icono al original</button>
+    </div>
+    <div style="margin-top: 50px;">
+        <input type="text" placeholder="Type something..." id="myInput">
+    </div>
+    <div style="margin-top: 50px;">
+        <button type="button" onclick="setInputText()">Random desde la Apk</button>
     </div>
 </div>
 </body>

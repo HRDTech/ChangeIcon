@@ -22,6 +22,8 @@ import android.webkit.WebView;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import java.util.Random;
+
 public class MainActivity extends AppCompatActivity {
     private SharedPreferences preferences;
     private boolean isBrithday;
@@ -118,6 +120,12 @@ public class MainActivity extends AppCompatActivity {
             if (data.contains("old")){
                 oldIconAdd();
             }
+        }
+
+        @JavascriptInterface
+        public String getInputText(){
+            int random = new Random().nextInt(100);
+            return "Ramdon  # " + String.valueOf(random);
         }
     }
 }
