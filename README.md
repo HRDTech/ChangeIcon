@@ -4,6 +4,6 @@
 </p>
 
 # ChangeIcon
-En este proyecto se implementan dos ejemplo de codigos:
-- El primero es el cambio del icono de la apk sibn recompilar la misma.
-- El segundo es el intercambio de datos entre una pagian web y WebView, usando JavascriptInterface.
+En este proyecto se implementan dos ejemplo de códigos:
+- El primero es el cambio del icono de la apk sin recompilar la misma.
+- El segundo es el intercambio de datos entre una pagina web y WebView, usando JavascriptInterface.
