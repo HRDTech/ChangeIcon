@@ -4,4 +4,6 @@
 </p>
 
 # ChangeIcon
-Este codigo permite el cambio de Icono de la apk y pone ejemplo del uso de hacer una interface entre una pagina web usando javascripty una interface de java
+En este proyecto se implementan dos ejemplo de codigos:
+- El primero es el cambio del icono de la apk sibn recompilar la misma.
+- El segundo es el intercambio de datos entre una pagian web y WebView, usando JavascriptInterface.
